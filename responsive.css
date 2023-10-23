@@ -1,0 +1,258 @@
+ 
+@media (max-width:600px) {
+    .navleft h2{
+        visibility: hidden;
+    }
+
+    .navleft i{
+        display: block;
+        margin-left: 20px;
+    }
+
+    .navright i{
+       display: none;
+    }
+
+    .navright>button{
+       display: block;
+    }
+
+    #container{
+        height:100%;
+        width: 600px;
+        background-image: url(https://india.ray-ban.com/media/wysiwyg/Rb_home_opti/RB_Website_Aviator_Reverse_Desktop_Banner_-_1920x800px.jpg);
+        background-position: center;
+        object-fit: contain;
+    }
+
+    #page2{
+        min-height: 100%;
+        width: 100%;
+     
+    }
+   
+    .heading{
+        height: 150px;
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .heading h1{
+        margin-top: 190px;
+        font-size: 2vw;
+    }
+
+    .heading p{
+       display: none;
+    }
+
+    .imgdiv{
+        height: 100px;
+        width: 100%;
+        margin-top: 9vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #twoimages{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        /* padding: 20px; */
+    }
+
+    .imgright{
+        height: 100%;
+        width: 90%;
+        object-fit: cover;
+        /* padding-left: 10px; */
+    }
+
+    .imgright img{
+        height: 100%;
+        width: 90%;
+        object-fit: cover;
+    }
+
+    .imgleft{
+        height: 100%;
+        width: 90%;
+        /* padding-right: 10px; */
+    }
+    
+    .imgleft img{
+        height: 100%;
+        width: 90%;
+        object-fit: cover;
+    }
+
+    #page3{
+        margin-top: 0px;
+        min-height: 100%;
+        width: 100%;
+    }
+    
+    #content{
+        height: 100%;
+        width: 100%;
+        background-color: rgba(225, 225, 225, 0.16);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #content h1{
+        margin-top: 50px;
+        font-size: 30px;
+  }
+
+  #content p{
+    font-size: 25px;
+    margin-top: 5px;
+    display: none;
+}
+
+#googlediv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* padding: 20px; */
+    margin-bottom: 60px;
+}
+
+#images{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ #imgleft{
+    height: 80%;
+    width: 90%;
+    margin-bottom: 20px;
+    /* margin-left: 20px; */
+ }
+
+ #imgleft>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+
+ #imgright{
+    height: 80%;
+    width: 90%;
+    /* margin-left: 20px; */
+ }
+
+ #imgright>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+
+ #text{
+    height: 50%;
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+ }
+
+ 
+ #textleft{
+    height: 40%;
+    width: 30%;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+  
+ 
+ #textleft h2{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+   margin-bottom: 20px;
+   margin-right: 170px;
+ }
+
+ 
+ #textleft p{
+    width: 50%;
+    display: none;
+    text-align: center;
+   margin-bottom: 20px;
+   margin-right: 170px;
+ }
+
+ #textleft .btn1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 170px;
+ }
+
+ .btn1 button{
+    height: 40px;
+    width: 120px;
+   background-color: black;
+   color: white;
+   font-size: 10px;
+   margin-left: 70px;
+ }
+
+ #textright{
+    height: 40%;
+    width: 30%;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ #textright h2{
+    width: 50%;
+    text-align: center;
+   line-height: 35px;
+   margin-bottom: 20px;
+   margin-right: 170px;
+ }
+
+ #textright p{
+    width: 50%;
+    text-align: center;
+   margin-bottom: 20px;
+   margin-right: 170px;
+   display: none;
+ }
+
+ #textright .btn2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+   margin-bottom: 20px;
+   margin-right: 120px;
+ }
+
+ .btn2 button{
+    height: 40px;
+    width: 120px;
+   background-color: black;
+   color: white;
+   font-size: 10px;
+ }
+
+}
