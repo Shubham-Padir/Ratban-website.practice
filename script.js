@@ -1,5 +1,5 @@
 Shery.mouseFollower();
-Shery.makeMagnet(".navleft h2, i");
+Shery.makeMagnet(".navleft h2, i, img");
 
 // Shery.textAnimate(".navleft h2",{
 //   style:2,
